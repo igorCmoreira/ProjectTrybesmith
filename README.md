@@ -465,7 +465,7 @@ Uma estratégia é pular todos os testes no início e ir implementando um teste 
   - **[Será validado que o campo "classe" é obrigatório]**
     - Se a requisição não tiver o campo "classe", o resultado retornado deverá ser um _status http_ `400` e
     ```json
-      { "error": "classe is required" }
+      { "error": "Classe is required" }
     ```
 
   - **[Será validado que o campo "classe" tem o tipo string]**
