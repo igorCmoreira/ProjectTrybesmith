@@ -7,7 +7,7 @@ class ProductController {
   public getAll = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const products = await this.productService.getAll();
-      res.status(200).json(products);
+      return res.status(200).json(products);
     } catch (err) {
       next(err);
     }
